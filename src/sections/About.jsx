@@ -33,9 +33,9 @@ const About = () => {
 
   return (
     <>
-      <div ref={aboutRef} className='h-screen bg-white rounded-tl-[60px] rounded-tr-[60px] relative z-10'>
+      <div ref={aboutRef} className='min-h-screen flex bg-white rounded-tl-[60px] rounded-tr-[60px] relative z-10'>
           {/* Text container */}
-          <div className='about-text main-container py-4 lg:py-12 h-full flex justify-center items-center font-heading text-black text-2xl md:text-3xl xl:text-[40px] 2xl:text-5xl leading-[1.25]'>I’m Akash, a full-stack developer who builds fast, secure web apps from the first screen to the live deployment. Clean, responsive frontends in React and Next.js, solid backends and REST APIs in Node.js and Express, and well-designed databases in PostgreSQL and MongoDB. You work with one person who owns the whole product, instead of managing a team.</div>
+          <div className='about-text main-container py-28 lg:py-32 flex justify-center items-center font-heading text-black text-2xl md:text-3xl xl:text-[40px] 2xl:text-5xl leading-[1.25]'>I’m Akash, a full-stack developer who turns ideas into fast, secure and polished web apps. I work across the whole stack: clean, responsive interfaces in React and Next.js, reliable backends and REST APIs in Node.js and Express, and well-designed databases in PostgreSQL and MongoDB. From payments and authentication to Docker, CI/CD and cloud deployment, I take a product from the first screen to a live release, and I care about the small details that make it a pleasure to use.</div>
       </div>
     </>
   )
