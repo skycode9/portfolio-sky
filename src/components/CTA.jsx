@@ -27,7 +27,7 @@ const CTA = () => {
     <>
       <div ref={ctaRef} className="mix-blend-difference">
         <div className="main-container py-20 lg:py-28 h-full flex flex-col gap-8 justify-center items-center">
-          <h4 className='max-w-6xl text-2xl md:text-3xl xl:text-[40px] 2xl:text-5xl text-center leading-[1.25] mix-blend-difference'>Freelance projects, collaborations and full-time opportunities. Send me the details and I'll reply the same day.</h4>
+          <h4 className='max-w-6xl text-[length:clamp(1.5rem,3.1vw,3rem)] text-center leading-[1.25] mix-blend-difference'>Freelance projects, collaborations and full-time opportunities. Send me the details and I'll reply the same day.</h4>
           <GradientButton text="Get in Touch" link={mailto} />
         </div>
       </div>

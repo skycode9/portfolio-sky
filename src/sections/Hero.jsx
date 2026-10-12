@@ -92,7 +92,7 @@ const Hero = () => {
         {/* Text container */}
         <div className="main-container h-screen flex flex-col lg:justify-center items-start lg:py-12 max-lg:pt-40">
           <h1 className="text-3xl lg:text-[3.2vw] uppercase font-heading font-semibold">{site.name}</h1>
-          <h2 className="text-[15vw] sm:text-6xl lg:text-[8vw] font-heading font-bold leading-[1] tracking-tight mt-3 mb-6">Full Stack <br/> Web <span className='text-stroke'> Developer </span></h2>
+          <h2 className="w-full text-[15vw] sm:text-6xl lg:text-[8vw] font-heading font-bold leading-[1] tracking-tight mt-3 mb-6">Full Stack <br/> Web <span className='text-stroke'> Developer </span></h2>
           <GradientButton text="Let's Talk" link={mailto} className="gradient-btn" />
         </div>
 

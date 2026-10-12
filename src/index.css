@@ -25,6 +25,13 @@
     overflow-x: clip;
   }
 
+  /* Older Safari has no overflow: clip */
+  @supports not (overflow-x: clip) {
+    html {
+      overflow-x: hidden;
+    }
+  }
+
   body {
     @apply bg-black text-white antialiased font-body text-xl overflow-x-clip;
   }
